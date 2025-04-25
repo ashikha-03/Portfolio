@@ -1,0 +1,38 @@
+body{
+    padding: 0 300 0 300px;
+}
+.container{
+    background-color: #9FE2BF;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 0.8fr 0.9fr 0.8fr 1.2fr;
+    column-gap: 5 px;
+    font-family: 'Times New Roman', Times, serif;
+}
+img
+{
+    height: 200px;
+    width: 200px;
+    float:left;
+}
+.images{
+    height: 20px;
+    width: 20px;
+    align-items: left;
+}
+.internship
+{
+    display: flex;
+}
+.column {
+    float: left;
+    width: 50%;
+    
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
